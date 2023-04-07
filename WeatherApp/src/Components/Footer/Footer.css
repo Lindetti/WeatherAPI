@@ -1,0 +1,31 @@
+footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 350px;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    height: 50px;
+    border-radius: 10px;
+}
+
+footer a {
+    color: black;
+    cursor: pointer;
+}
+
+footer a:hover {
+    color: rgb(79, 143, 228);
+}
+
+.modalDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.modalDiv a {
+    color: white;
+}

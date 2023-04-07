@@ -1,8 +1,17 @@
 .base-wrapper {
-    background-color: rgba(255, 255, 255, 0.8);
-    height: 550px;
+    height: auto;
     width: 350px;
     border-radius: 10px;
+}
+
+.day {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.night {
+    background-color: rgba(27, 26, 26, 0.8);
+    color: white;
 }
 
 .main {
@@ -15,8 +24,28 @@
 .searchDiv {
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem
+}
+
+form {
+    display: flex;
     gap: 0.5rem;
+}
+
+input {
+    padding: 0.3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: rgb(79, 143, 228);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .cityNameDiv {
@@ -32,7 +61,7 @@
     flex-direction: column;
     width: auto;
     align-items: center;
-    height: 240px
+    height: 230px;
 }
 
 .tempDescDiv h1 {
@@ -40,7 +69,7 @@
 }
 
 .tempDescDiv img {
-    margin-top: -40px;
+    margin-top: -50px;
     width: 200px;
 }
 
@@ -50,4 +79,21 @@
     justify-content: space-between;
     border-radius: 10px;
     padding: 1rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.upcomingWeather {
+    display: flex;
+    gap: 1rem;
+    width: auto;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.upcomingDays {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.2rem;
 }
